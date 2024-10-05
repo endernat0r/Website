@@ -23,7 +23,7 @@ window.addEventListener('scroll', function () {
 
     let value = window.scrollY;   //Get Scroll Value (Mobile - High)
 
-    text.style.top = 50 + value * -0.2 + '%';
+    text.style.top = 20 + value * -0.2 + '%';
     cloud.style.left = value * 2 + 'px';
 
     bird1.style.top = value * 0.1 + 'px';
