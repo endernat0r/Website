@@ -4,6 +4,9 @@
     gap: 10px; /* Space between grid items */
   }
   
+  h2,h3,h4,h5,h6{
+    font-size: 22px ;
+  }
   .column1 {
     grid-column: 1 / 2; /* Starts at grid line 1, ends at grid line 2 */
   }
