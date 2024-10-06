@@ -119,7 +119,7 @@ section #text {
     line-height: 0.55em;
     font-family: 'Rancho', cursive;
     transform: translateY(-50%);
-    top: 50%;
+    top: 20%;
 }
 
 
@@ -221,6 +221,9 @@ section #text {
     margin: 2%;
 }
 
+.PaceUydu {
+    width: 200px;
+}
 
 /* Make all fishes image as absolute.. To overlap with background */
 .fishes {
