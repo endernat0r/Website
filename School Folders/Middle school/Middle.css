@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    gap: 10px; /* Space between grid items */
+  }
+  
+  h2,h3,h4,h5,h6{
+    font-size: 22px ;
+  }
+  .column1 {
+    grid-column: 1 / 2; /* Starts at grid line 1, ends at grid line 2 */
+  }
+  
+  .column2 {
+    grid-column: 2 / 3; /* Starts at grid line 2, ends at grid line 4 (spans 2 columns) */
+  }
+
+  .column3 {
+    grid-column: 3 / 4; /* Starts at grid line 2, ends at grid line 4 (spans 2 columns) */
+  }
+  
+  .column1, .column2, .column3 {
+    padding: 10px;
+  }
