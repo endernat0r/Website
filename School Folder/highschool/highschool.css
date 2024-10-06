@@ -3,8 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
     gap: 10px; /* Space between grid items */
   }
+
+  .button1 {
+    background-color:aquamarine;
+  }
   
-  h2,h3,h4,h5,h6{
+  h1,h2,h3,h4,h5,h6{
     font-size: 22px ;
   }
   .column1 {
